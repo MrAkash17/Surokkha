@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    box-shadow: 5px 10px 22px rgba(0, 0, 0, 0.05);
+    background: #FFFFFF;
+    z-index: 1;
+}
+.logo img{
+    margin-left: 350px;
+   
+}
+.navbar ul{
+    display: flex;
+    margin-right: 200px;
+}
+.navbar ul li a{
+    padding: 0 22px;
+    line-height: 100px;
+    height: 40px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #585b5b;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.navbar ul li a:hover{
+    background: coral;
+    padding: 7px 12px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+}
+.main{
+    background: rgb(232, 240, 255);
+    height: 35vh;
+}
+.main1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 160px;
+}
+.main1 h3{
+    margin-left: 350px;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 1.5rem;
+}
+.main1 img{
+    height: 110px;
+    width: auto;
+    margin-right: 350px;
+}
+.downs{
+    background: rgb(245, 215, 176);
+    width: 30%;
+    height: 10vh;
+    margin-left: 34%;
+    margin-top: 3%;
+    text-align: center;
+    padding-top: 35px;
+    border-radius: 5px;
+}
+.downs a{
+    color: black;
+    font-weight: 600;
+    
+}
+.downs a:hover{
+    text-decoration: underline;
+}
+.others{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.others p{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8%;
+}
+.items{
+    background: rgb(240, 240, 240);
+    width: 250px;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.items:nth-child(1){
+    border-left: 10px solid rgb(224, 224, 67);
+}
+.items:nth-child(2){
+    border-left: 10px solid rgb(104, 247, 140);
+}
+.items:nth-child(3){
+    border-left: 10px solid rgb(98, 243, 243);
+}
+.items:nth-child(4){
+    border-left: 10px solid rgb(107, 165, 253);;
+}
+.items:nth-child(4) img{
+    height: 90px;
+    width: auto;
+}
+.items img{
+    padding-top: 35px;
+}
+.items h3{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 1.1rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(253, 109, 56);
+    height: 25vh;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 12%;
+}
+.foot-img img{
+    height: 70px;
+    width: auto;
+    margin-right: 40px;
+}
+.foot-text{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 40px;
+    color: white;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.footer2 p, .footer3 p{
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.footer2 img, .footer3 img{
+    width: 300px;
+    height: auto;
+}
+.footer3{
+    margin-right: 15%;
+}
